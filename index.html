@@ -6,9 +6,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
 <style type="text/css">
 	
-/*header{
-	background-color: red;
-}*/
+
+/*CODE FOR ANY HEADER SPECIFIC STUFF*/
+header {
+	position: sticky;
+	top: 0.85%;
+	/*margin-top: -10%;*/
+	/*background-color: red;*/
+}
 
 body {
   /*background-color:#719D06;*/
@@ -19,35 +24,44 @@ body {
   /*background-attachment: fixed;*/
 }
 
-.header1{
-	/*background-color: lightgrey;*/
-	position: sticky;
-	top: 15px;
+
+/*HEADER CLASS FOR ELEMENTS IN HEADER WHICH ARE BASICALLY ALL THE SOCIAL MEDIA LINKS*/
+/*.header1{
+	background-color: lightgrey;
 	text-align:center;
 	padding-left: 86%;
 	padding-top: 10px;
-}
+}*/
 
-.Logo:hover{
+/*TO LIGHTEN ANY ELEMENT WHEN HOVERED OVER IT*/
+.Light:hover{
 	opacity: 60%;
 }
 
-.margin{
-	margin-left: 98%;
+/*LMH= LEFT MARGIN FOR HEADER*/
+.LMH{
+	margin-left:87.4%;
 }
 
+/*.RMH{
+	position: absolute;
+  	right: 1px;
+}*/
+
+/*HEADING 1 MY NAME*/
 h1 {
 	/*color: #85b54a;*/
 	color: #3fe0d0;
 	opacity: 0.7;
 	text-align:center;
-	padding-right: 32%;
+	/*padding-right: 32%;*/
 	font-family: Cabin, serif, sans-serif;
 	text-shadow: 2px 2px black;
-	margin-top: 7%;
-	margin-left: auto;
+	margin-top: 17%;
+	margin-right: 31%;
 }
 
+/*PARAGRAPH WITH A SMALL INTRODUCTION*/
 p {
 	background:rgba(50, 50, 50, 0.3);
 	text-align:center;
@@ -58,7 +72,9 @@ p {
 	margin-right: auto;
 	overflow: auto;
 }
-.customtext {
+
+/*CLASS FOR TEXT STYLING IN THE PARAGRAPH*/
+p.customtext {
 	color:white;
 	font-family: georgia, serif, sans-serif;
 	font-style: italic;
@@ -68,23 +84,26 @@ p {
 }
 
 </style>
-<body>
 
-	<header> <a href="https://www.facebook.com/adityasharma028/" class="margin Logo"><img src="Logos/Facebook_Logo.png" alt="Facebook" height="35px" hint="My Facebook"></a>
+<!-- MAIN BODY OF THE PAGE STARTS FORM HERE -->
+<body><header>
 
-		<a href="https://www.instagram.com/adi1icious/" class="margin Logo"><img src="Logos/Instagram_Logo.png" alt="Instagram" height="35px"></a>
+	<a href="https://www.facebook.com/adityasharma028/" class="LMH Light"><img src="Logos/Facebook_Logo.png" alt="Facebook" height="35px" title="Facebook"></a>
 
-		<a href="https://www.linkedin.com/in/aditya-sharma-7504a6154/" class="margin Logo"><img src="Logos/Linkedin_Logo.png" alt="Linkedin" height="35px"></a>
+	<a href="https://www.instagram.com/adi1icious/" class="Light"><img src="Logos/Instagram_Logo.png" alt="Instagram" height="35px" title="Instagram"></a>
 
-		<a href="https://twitter.com/Adi1icious" class="margin Logo"><img src="Logos/Twitter_Logo.png" alt="Twitter" height="35px"></a>
+	<a href="https://www.linkedin.com/in/aditya-sharma-7504a6154/" class="Light"><img src="Logos/Linkedin_Logo.png" alt="Linkedin" height="35px" title="Linkedin"></a>
 
-		<a href="https://www.youtube.com/c/Adi1iciousYT" class="margin Logo"><img src="Logos/Youtube_Logo.png" alt="Youtube" height="35px"></a>
+	<a href="https://twitter.com/Adi1icious" class="Light"><img src="Logos/Twitter_Logo.png" alt="Twitter" height="35px" title="Twitter"></a>
 
-		<a href="https://github.com/adi1icious" class="margin Logo"><img src="Logos/Github_Logo.png" alt="Github" height="35px"></a>
+	<a href="https://www.youtube.com/c/Adi1iciousYT" class="Light"><img src="Logos/Youtube_Logo.png" alt="Youtube" height="35px" title="Youtube"></a>
 
-	</header>
+	<a href="https://github.com/adi1icious" class="Light"><img src="Logos/Github_Logo.png" alt="Github" height="35px" title="Github"></a></header>
+
 	<h1>Aditya Sharma</h1>
+
 	<p class="customtext">A Computer Science Honors Alumni from Ramanujan College, Delhi University.</p>
+
 	<footer> </footer>
 
 </body>
