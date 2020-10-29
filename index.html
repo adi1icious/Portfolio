@@ -7,16 +7,14 @@
 <style type="text/css">
 	
 
-body {
+body{
   /*background-color:#719D06;*/
   background-image: url("Material_Background.jpg");
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left top;
-  /*background-attachment: fixed;*/
+  position: relative;
 }
-
 
 /*TO LIGHTEN ANY ELEMENT WHEN HOVERED OVER IT*/
 .Light:hover{
@@ -49,7 +47,7 @@ p {
 }
 
 /*CLASS FOR TEXT STYLING IN THE PARAGRAPH*/
-p.customtext {
+.customtext {
 	color:white;
 	font-family: georgia, serif, sans-serif;
 	font-style: italic;
@@ -77,14 +75,18 @@ p.customtext {
   	margin-right: auto;
   	border-radius: 40%;
   	border: 2px solid #ffffff;
-  	max-width: 10%;
-  	margin-top: 12%;
+  	max-width: 12%;
+  	margin-top: 11%;
+}
+#div1{
+	background-image: url(Mountain_Background.jpg);
+	position: relative;
 }
 
 </style>
 
 <!-- MAIN BODY OF THE PAGE STARTS FORM HERE -->
-<body>
+<body><div>
 <ul id="mediaList">
 	<li class="media"><a href="https://github.com/adi1icious" class="Light"><img src="Logos/Github_Logo.png" alt="Github" height="35px" title="Github"></a></li>
 	<li class="media"><a href="https://www.youtube.com/c/Adi1iciousYT" class="Light"><img src="Logos/Youtube_Logo.png" alt="Youtube" height="35px" title="Youtube"></a></li>
@@ -97,7 +99,11 @@ p.customtext {
 	<img id="Front" src="images/Front.jpg">
 	<h1>Aditya Sharma</h1>
 	<p class="customtext">A Computer Science Honors Alumni from Ramanujan College, Delhi University.</p>
-
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+	<div id="div1" class="customtext">
+		Hi I am Aditya Sharma.
+	</div>
 
 </body>
 </html>
