@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Aditya Sharma</title>
+	<meta charset="utf-8">
+	<meta name="Description" content="This is my Portfolio Website">
+	<title>Aditya's Website</title>
 </head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
 <style type="text/css">
@@ -69,6 +71,8 @@ p {
 	padding-right: 4px;
 	/*background-color: red;*/
 }
+
+/*For the Front Image*/
 #Front{
 	display: block;
   	margin-left: auto;
@@ -78,15 +82,63 @@ p {
   	max-width: 12%;
   	margin-top: 11%;
 }
+
+@keyframes anim{
+	0%{
+		box-shadow: 0 0 0 0px rgba(34, 94, 164, 0.2);
+	}
+	20%{
+		box-shadow: 0 0 0 20px rgba(34, 94, 164, 0.2);
+	}
+	40%{
+		box-shadow: 0 0 0 20px rgba(34, 94, 164, 0.2),
+					0 0 0 40px rgba(34, 94, 164, 0.2);
+	}
+	60%{
+		box-shadow: 0 0 0 10px rgba(34, 94, 164, 0.2),
+					0 0 0 50px rgba(34, 94, 164, 0.2),
+					0 0 0 30px rgba(34, 94, 164, 0.2);
+	}
+	80%{
+		box-shadow: 0 0 0 0px rgba(34, 94, 164, 0.2),
+					0 0 0 40px rgba(34, 94, 164, 0.2),
+					0 0 0 50px rgba(34, 94, 164, 0.2),
+					0 0 0 80px rgba(34, 94, 164, 0.2);
+	}
+	100%{
+		box-shadow: 0 0 0 20px rgba(34, 94, 164, 0.2),
+					0 0 0 40px rgba(34, 94, 164, 0.2),
+					0 0 0 60px rgba(34, 94, 164, 0.2),
+					0 0 0 90px rgba(34, 94, 164, 0.2),
+					0 0 0 110px rgba(34, 94, 164, 0.2);
+	}
+}
+
+/*For the front Page animation*/
+.box{
+	/*background-color: red;*/
+	/*cursor: pointer;*/
+	position: absolute;
+	top: 130%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	animation: anim 3s infinite linear;
+}
+
+/**/
 #div1{
 	background-image: url(Mountain_Background.jpg);
-	position: relative;
+	/*position: relative;*/
+	width: auto;
 }
 
 </style>
 
 <!-- MAIN BODY OF THE PAGE STARTS FORM HERE -->
-<body><div>
+<body>
 <ul id="mediaList">
 	<li class="media"><a href="https://github.com/adi1icious" class="Light"><img src="Logos/Github_Logo.png" alt="Github" height="35px" title="Github"></a></li>
 	<li class="media"><a href="https://www.youtube.com/c/Adi1iciousYT" class="Light"><img src="Logos/Youtube_Logo.png" alt="Youtube" height="35px" title="Youtube"></a></li>
@@ -95,15 +147,12 @@ p {
 	<li class="media"><a href="https://www.instagram.com/adi1icious/" class="Light"><img src="Logos/Instagram_Logo.png" alt="Instagram" height="35px" title="Instagram"></a></li>
 	<li class="media"><a href="https://www.facebook.com/adityasharma028/" class="Light"><img src="Logos/Facebook_Logo.png" alt="Facebook" height="35px" title="Facebook"></a></li>
 </ul><br>
-
 	<img id="Front" src="images/Front.jpg">
 	<h1>Aditya Sharma</h1>
 	<p class="customtext">A Computer Science Honors Alumni from Ramanujan College, Delhi University.</p>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	</div>
-	<div id="div1" class="customtext">
+	<div class="box"></div>
+	<!--<div id="div1">
 		Hi I am Aditya Sharma.
-	</div>
-
+	</div>-->
 </body>
 </html>
