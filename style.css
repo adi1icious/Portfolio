@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="Description" content="This is my Portfolio Website">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Aditya's Website</title>
-</head>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
 <style type="text/css">
-	
-
 body{
   /*background-color:#719D06;*/
   background-image: url("Material_Background.jpg");
@@ -137,23 +126,3 @@ p {
 }
 
 </style>
-
-<!-- MAIN BODY OF THE PAGE STARTS FORM HERE -->
-<body>
-<ul id="mediaList">
-	<li class="media"><a href="https://github.com/adi1icious" class="Light"><img src="Logos/Github_Logo.png" alt="Github" height="35px" title="Github"></a></li>
-	<li class="media"><a href="https://www.youtube.com/c/Adi1iciousYT" class="Light"><img src="Logos/Youtube_Logo.png" alt="Youtube" height="35px" title="Youtube"></a></li>
-	<li class="media"><a href="https://twitter.com/Adi1icious" class="Light"><img src="Logos/Twitter_Logo.png" alt="Twitter" height="35px" title="Twitter"></a></li>
-	<li class="media"><a href="https://www.linkedin.com/in/aditya-sharma-7504a6154/" class="Light"><img src="Logos/Linkedin_Logo.png" alt="Linkedin" height="35px" title="Linkedin"></a></li>
-	<li class="media"><a href="https://www.instagram.com/adi1icious/" class="Light"><img src="Logos/Instagram_Logo.png" alt="Instagram" height="35px" title="Instagram"></a></li>
-	<li class="media"><a href="https://www.facebook.com/adityasharma028/" class="Light"><img src="Logos/Facebook_Logo.png" alt="Facebook" height="35px" title="Facebook"></a></li>
-</ul><br>
-	<img id="Front" src="images/Front.jpg">
-	<h1>Aditya Sharma</h1>
-	<p class="customtext">A Computer Science Honors Alumni from Ramanujan College, Delhi University.</p>
-	<div class="box"></div>
-	<!--<div id="div1">
-		Hi I am Aditya Sharma.
-	</div>-->
-</body>
-</html>
