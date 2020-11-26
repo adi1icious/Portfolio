@@ -1,20 +1,14 @@
-<style type="text/css">
-body{
-  /*background-color:#719D06;*/
-  background-image: url("Material_Background.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+*{
+	margin: 0;
+    padding: 0;
 }
-
 /*TO LIGHTEN ANY ELEMENT WHEN HOVERED OVER IT*/
 .Light:hover{
 	opacity: 60%;
 }
 
 /*HEADING 1 MY NAME*/
-h1 {
+.head {
 	/*color: #85b54a;*/
 	color: #3fe0d0;
 	opacity: 0.7;
@@ -22,17 +16,17 @@ h1 {
 	/*padding-right: 32%;*/
 	font-family: Cabin, serif, sans-serif;
 	text-shadow: 2px 2px black;
-	margin-top: 0%;
-	margin-right: 31%;
+	margin-top: 1%;
+	/*margin-right: 31%;*/
 }
 
 /*PARAGRAPH WITH A SMALL INTRODUCTION*/
-p {
+.bio {
 	background:rgba(50, 50, 50, 0.3);
 	text-align:center;
 	border-left: 3px solid skyblue;
 	padding-bottom: 5px;
-	margin-top: -13px;
+	margin-top: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: auto;
@@ -48,6 +42,33 @@ p {
 	max-width: 800px;
 }
 
+.start{
+	color:white;
+	font-family: georgia, serif, sans-serif;
+	font-style: italic;
+	font-size: 2vw;
+	background-color: black;
+    text-align: center;
+}
+
+.project{
+	color:white;
+	font-family: georgia, serif, sans-serif;
+	font-style: italic;
+	font-size: 2vw;
+	background-color: #40A19E;
+    text-align: center;
+}
+
+.contact{
+	color:white;
+	font-family: georgia, serif, sans-serif;
+	font-style: italic;
+	font-size: 2vw;
+	background-color: black;
+    text-align: center;
+}
+
 /*For the Icon List*/
 #mediaList{
 	position: sticky;
@@ -59,7 +80,6 @@ p {
 	display: inline;
 	float: right;
 	padding-right: 4px;
-	/*background-color: red;*/
 }
 
 /*For the Front Image*/
@@ -73,6 +93,7 @@ p {
   	margin-top: 11%;
 }
 
+/*For the small animation in the front*/
 @keyframes anim{
 	0%{
 		box-shadow: 0 0 0 0px rgba(34, 94, 164, 0.2);
@@ -106,23 +127,15 @@ p {
 
 /*For the front Page animation*/
 .box{
-	/*background-color: red;*/
-	/*cursor: pointer;*/
-	position: absolute;
-	top: 130%;
+	cursor: pointer;
+	position: relative;
+	top: 170px;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
 	animation: anim 3s infinite linear;
-}
-
-/**/
-#div1{
-	background-image: url(Mountain_Background.jpg);
-	/*position: relative;*/
-	width: auto;
 }
 
 </style>
