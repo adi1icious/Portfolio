@@ -46,7 +46,7 @@
 	color:white;
 	font-family: georgia, serif, sans-serif;
 	font-style: italic;
-	font-size: 2vw;
+	font-size: 2em;
 	background-color: black;
     text-align: center;
 }
@@ -55,7 +55,7 @@
 	color:white;
 	font-family: georgia, serif, sans-serif;
 	font-style: italic;
-	font-size: 2vw;
+	font-size: 2em;
 	background-color: #40A19E;
     text-align: center;
 }
@@ -64,7 +64,7 @@
 	color:white;
 	font-family: georgia, serif, sans-serif;
 	font-style: italic;
-	font-size: 2vw;
+	font-size: 2em;
 	background-color: black;
     text-align: center;
 }
@@ -89,7 +89,7 @@
   	margin-right: auto;
   	border-radius: 40%;
   	border: 2px solid #ffffff;
-  	max-width: 12%;
+  	max-width: 20%;
   	margin-top: 11%;
 }
 
